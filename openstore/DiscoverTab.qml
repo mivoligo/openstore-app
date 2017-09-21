@@ -96,6 +96,7 @@ Page {
                         anchors.fill: parent
                         anchors.bottomMargin: units.gu(2)
                         source: discoverModel.highlightBannerUrl || highlightAppControl.appItem.icon
+                        sourceSize.width: parent.width
                         fillMode: Image.PreserveAspectCrop
                     }
 
